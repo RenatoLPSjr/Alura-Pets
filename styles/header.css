@@ -1,0 +1,18 @@
+.cabecalho__container {
+    width: 370px;
+    position: absolute;
+}
+
+.cabecalho__container-segundo {
+    width: 385px;
+    position: absolute;
+}
+
+.cabecalho__icone {
+    position: absolute;
+    padding: 3em;
+}
+
+.cabecalho__link {
+    padding-right: 3em;
+}

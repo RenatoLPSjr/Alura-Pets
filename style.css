@@ -1,0 +1,22 @@
+@import url("styles/header.css");
+@import url("styles/main.css");
+@import url("styles/footer.css");
+@import url("styles/cadastro.css");
+
+:root {
+    --azul: #3772FF;
+    --branco: #fff;
+    --rose: #FC7071;
+    --verde: #36D6AD;
+    --cinza-escuro: #737380;
+    --cinza: #BCBCBC;
+    --cinza-claro: #F6F6F6;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "IBM Plex Sans";
+}
+
+body {
+    font-family: var(--fonte-principal);
+    height: 110vh;
+    width: 100vw;
+}
