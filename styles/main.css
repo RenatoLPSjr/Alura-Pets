@@ -2,11 +2,10 @@
     padding-top: 11em;
     position: absolute;
     text-align: center;
-    width: 100vw;
 }
 
 .principal__container {
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -15,14 +14,14 @@
     font-weight: 500;
     font-size: 26px;
     color: var(--branco);
-    padding: 1.5em 0;
+    padding: 1em 0;
 }
 
 .principal__texto {
     font-weight: 400;
     font-size: 16px;
     color: var(--branco);
-    padding: 1em 0;
+    padding: 0.5em 0;
     line-height: 24px;
 }
 
@@ -60,15 +59,14 @@
 
 .banner__inferior {
     position: absolute;
-    width: 250px;
-    left: 15%;
-    bottom: -5%;
+    width: 100%;
+    bottom: -10%;
 }
 
-.banner__imagem {
+.banner__container {
+    width: 80%;
     margin: 0 auto;
 }
-
 .patas {
     position: absolute;
     right: 0px;

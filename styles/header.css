@@ -1,10 +1,10 @@
 .cabecalho__container {
-    width: 370px;
+    width: 98%;
     position: absolute;
 }
 
 .cabecalho__container-segundo {
-    width: 385px;
+    width: 100%;
     position: absolute;
 }
 
