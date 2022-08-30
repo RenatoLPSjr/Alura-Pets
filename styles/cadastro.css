@@ -1,9 +1,10 @@
 .cadastro {
-    position: absolute;
+    position: relative;
     padding-top: 12em;
     flex-direction: column;
     text-align: center;
     width: 100vw;
+    height: 80vh;
 }
 
 .cadastro__container {

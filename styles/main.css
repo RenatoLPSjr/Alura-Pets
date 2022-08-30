@@ -1,7 +1,12 @@
+.conteudo__principal {
+    position: relative;
+    min-height: 100%;
+}
+
 .principal {
     padding-top: 11em;
-    position: absolute;
     text-align: center;
+    height: 95vh;
 }
 
 .principal__container {
@@ -57,16 +62,18 @@
     top: 45%;
 }
 
-.banner__inferior {
-    position: absolute;
-    width: 100%;
-    bottom: -10%;
-}
 
 .banner__container {
-    width: 80%;
+    width: 250px;
     margin: 0 auto;
+
 }
+
+.banner__imagem {
+    position: absolute;
+    bottom: -2%;
+}
+
 .patas {
     position: absolute;
     right: 0px;

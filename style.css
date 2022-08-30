@@ -2,6 +2,7 @@
 @import url("styles/main.css");
 @import url("styles/footer.css");
 @import url("styles/cadastro.css");
+@import url("styles/card.css");
 
 :root {
     --azul: #3772FF;
@@ -15,7 +16,7 @@
     --fonte-secundaria: "IBM Plex Sans";
 }
 
+
 body {
     font-family: var(--fonte-principal);
-    overflow-x: hidden;
 }

@@ -1,13 +1,11 @@
-.rodape {
-    width: 100vw;
-    background:  var(--verde);
-    position: absolute;
-    bottom: -18%;
-}
 
 .rodape__container {
+    background: var(--verde);
+    width: 100%;
+    position: absolute;
     display: flex;
     justify-content: center;
+    z-index: 2;
 }
 
 .rodape__texto {

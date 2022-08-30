@@ -1,0 +1,64 @@
+.card {
+    width: 100%;
+    padding-top: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__chamada {
+    font-size: 16px;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+    color: var(--azul);
+    padding: 2em 0;
+}
+
+
+.card__card {
+    width: 100%;
+    background: var(--cinza-claro);
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 0;
+
+}
+
+.card__imagem{
+    padding: 1.5em 0.5em;
+}
+
+.card__nome {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--azul);
+    padding: 1em 0;
+}
+
+.card__descricao {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-escuro);
+    line-height: 1.5em;
+    padding-bottom: 2.5em;
+}
+
+.card__local {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza-escuro);
+}
+
+.card__contato{
+    display: flex;
+    align-items: center;
+    padding-top: 0.5em;
+}
+
+.card__contato-frase {
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--cinza-escuro);
+    padding-left: 1em;
+}
