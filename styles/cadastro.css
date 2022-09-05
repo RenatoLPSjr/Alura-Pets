@@ -1,5 +1,4 @@
 .cadastro {
-    position: relative;
     padding-top: 11em;
     text-align: center;
     height: 100vh;
@@ -69,7 +68,6 @@
 @media screen and (min-width: 768px){
 
     .cadastro {
-        position: relative;
         padding-top: 12em;
         text-align: center;
         height: 95vh;
