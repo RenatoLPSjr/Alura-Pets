@@ -1,15 +1,15 @@
 .cadastro {
     position: relative;
-    padding-top: 12em;
-    flex-direction: column;
+    padding-top: 11em;
     text-align: center;
-    width: 100vw;
-    height: 80vh;
+    height: 100vh;
 }
 
 .cadastro__container {
-    width: 80vw;
+
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .cadastro__texto {
@@ -31,7 +31,7 @@
     border-radius: 6px;
     width: 90%;
     padding: 0.5em;
-    margin: 1em 0;
+    margin: 1em auto;
 }
 
 .cadastro__borda::placeholder {
@@ -52,11 +52,11 @@
     font-size: 16px;
     font-weight: 600;
     border-radius: 6px;
-    padding: 1em 0;
+    padding: 0.8em 1em;
     background: var(--rose);
     width: 40%;
     margin: 1em auto;
-
+    text-align: center;
 }
 
 .cadastro__texto-senha {
@@ -64,4 +64,66 @@
     font-weight: 400;
     color: var(--rose);
     text-decoration: underline;
+}
+
+@media screen and (min-width: 768px){
+
+    .cadastro {
+        position: relative;
+        padding-top: 12em;
+        text-align: center;
+        height: 95vh;
+    }
+    .cadastro__logo{
+        width: 250px;
+        margin: 0 auto;
+        padding-bottom: 2em;
+    }
+
+    .cadastro__container {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .cadastro__texto {
+        font-size: 18px;
+        padding-bottom: 3em;
+    }
+
+    .cadastro__nome{
+        font-size: 18px;
+    }
+
+    .cadastro__borda {
+        width: 50%;
+    }
+
+    .cadastrar__botao{
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+
+    .cadastro__container {
+        width: 40vw;
+        margin: 0 auto;
+    }
+
+    .cadastro__texto {
+        font-size: 18px;
+        padding-bottom: 3em;
+    }
+
+    .cadastro__borda {
+        width: 80%;
+    }
+
+    .cadastro__borda-senha{
+        width: 50%;
+    }
+
+    .cadastrar__botao {
+        width: 10%
+    }
 }

@@ -1,3 +1,4 @@
+
 .cabecalho__container {
     width: 98%;
     position: absolute;
@@ -8,12 +9,15 @@
     position: absolute;
 }
 
+.esconder{
+    opacity: 0;
+}
+
 .cabecalho__icone {
     position: absolute;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    padding-top: 3em;
+    padding-top: 1em;
     padding-left: 3em;
 }
 
@@ -23,4 +27,70 @@
 
 .cabecalho__home {
     padding-left: 5em;
+}
+
+.cabecalho__logo{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .cabecalho__container {
+        width: 80%;
+        position: absolute;
+    }
+
+    .cabecalho__container-segundo {
+        width: 82%;
+        position: absolute;
+    }
+
+    .cabecalho__logo{
+        display: block;
+        width: 128px;
+        padding-right: 5em;
+    }
+
+    .cabecalho__home {
+        right: 20%;
+    }
+
+    .cabecalho__icone{
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 2em;
+    }
+
+    .cabecalho__icone-pincipal{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .cabecalho__container {
+        width: 70%;
+        position: absolute;
+    }
+
+    .cabecalho__container-segundo {
+        width: 72%;
+        position: absolute;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1440px){
+    .cabecalho__container {
+        width: 60%;
+        position: absolute;
+    }
+
+    .cabecalho__container-segundo {
+        width: 62%;
+        position: absolute;
+    }
+
 }

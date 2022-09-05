@@ -1,0 +1,100 @@
+.perfil__area{
+    padding-top: 12em;
+}
+
+.perfil__texto{
+    width: 80%;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--azul);
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+    line-height: 20px;
+}
+.perfil__container{
+    background: var(--cinza-claro);
+    display: flex;
+    flex-direction: column;
+    margin: 1.3em;
+    padding: 2.5em 1em;
+    border-radius: 10px;
+}
+
+.perfil-cadastro__nome{
+    color: var(--azul);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0.5em 0;
+}
+
+.perfil-cadastro__borda{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    padding: 0.8em;
+    margin-bottom: .5em;
+}
+
+.perfil-cadastro__borda::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.mensagem__borda {
+    height: 170px;
+    width:90%;
+    color: var(--cinza-escuro);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1em 0;
+}
+
+.perfil__titulo{
+    text-align: center;
+    font-weight: 600;
+    font-size: 21px;
+    color: var(--cinza-escuro);
+}
+
+.perfil__container--foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil__foto{
+    width: 100px;
+    margin: 0.5em;
+}
+
+.perfil__botao-foto{
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--rose);
+    padding-bottom: 1em;
+}
+
+@media screen and (min-width: 768px){
+    .perfil__area{
+        padding-top: 14em;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .perfil__texto{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .perfil__area{
+        padding-top: 14em;
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .perfil__texto{
+        font-size: 18px;
+    }
+}
